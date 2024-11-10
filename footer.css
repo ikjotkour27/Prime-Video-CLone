@@ -1,0 +1,26 @@
+/* FOOTER */
+footer{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(49, 52, 50);
+}
+.sections , .image2  , .copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image2{
+    padding-top: 25px;
+}
+.sections div {
+    padding: 0px 10px 10px;  
+}
+.sections div a {
+    text-decoration: none;
+    color: rgb(60, 168, 226);
+    font-weight: 600;
+}
+.copyright p{
+    padding: 0px 30px 30px ;
+    color: black;
+}

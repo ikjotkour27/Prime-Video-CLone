@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* NAVIGATION BAR */
+.navigationBar {
+    background-color: rgb(0, 0, 14);
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navigationBar div {
+    padding: 10px 20px;
+  }
+  .logo {
+    margin-top: 5px;
+    margin-right: 30px;
+  }
+  .navigationBar div a {
+    color: white;
+    text-decoration: none;
+  }
+  .navigationBar div :hover {
+    color: black;
+    background-color: grey;
+    border: black;
+    text-decoration: underline white;
+  }

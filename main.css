@@ -1,0 +1,104 @@
+/* SECTIONS  */
+.bgimage img,
+.bgimage2 img,
+.bgimage4 img {
+  width: 100vw;
+  height: 100vh;
+}
+.bgimagecontent .welcome,
+.bgimagecontent2 .welcome2,
+.bgimagecontent4 .welcome4,
+.contentts .c1 {
+  font-weight: lighter;
+  font-size: 48px;
+}
+.bgimagecontent .description,
+.bgimagecontent2 .description2,
+.bgimagecontent4 .description4,
+.contentts .c2 {
+  font-size: 20px;
+}
+.bgimagecontent .box1,
+.bgimagecontent2 .box,
+.bgimagecontent4 .box2 {
+  background-color: rgb(26, 111, 132);
+  box-sizing: content-box;
+  width: 200px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 20px;
+  border-radius: 3px;
+}
+.blackbox {
+  background-color: black;
+  color: white;
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  bottom: 200px;
+  left: 120px;
+  z-index: 0;
+}
+.blackbox2 {
+  width: 515px;
+  height: 300px;
+  background-color: black;
+  top: 700px;
+}
+.bgimagecontent {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  bottom: 420px;
+  left: 30px;
+}
+.bgimagecontent div {
+  padding: 8px 0px;
+}
+.bgimagecontent2 {
+  position: absolute;
+  color: white;
+  top: 700px;
+}
+.bgimagecontent2 div {
+  margin: 40px;
+}
+.bgimagecontent4 {
+  background-color: transparent;
+  position: absolute;
+  color: white;
+  top: 2130px;
+  left: 30px;
+}
+.bgimagecontent4 div {
+  padding: 10px;
+}
+#i103 {
+  background-color: white;
+}
+.c1,
+.c2 {
+  padding: 20px;
+}
+.contentts {
+  width: 55vw;
+  height: 100vh;
+  float: left;
+  margin-left: 30px;
+}
+.imagess {
+  margin-top: 50px;
+  width: 40vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 145px 145px 145px 145px 145px;
+}
+.imagess div a img {
+  width: 200px;
+  padding: 5px 5px 0px;
+}
+.imagess :hover {
+  width: 204px;
+}
